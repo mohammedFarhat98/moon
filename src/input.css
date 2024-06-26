@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color:#050931;
+}
+p{
+    color: #8F91A1;
+}

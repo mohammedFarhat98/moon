@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./dist/style.css" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="">
+
+  <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-slate-100 text-sm py-8 ">
+
+    <nav class=" container w-full mx-auto  px-4   md:px-0 sm:flex sm:items-center sm:justify-between"
+      aria-label="Global">
+      <div class="flex items-center justify-between">
+        <a href="#"> <img src="src/img/Monax..png" alt="" /></a>
+        <div class="sm:hidden">
+          <button type="button"
+            class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-black  shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-green-400 focus:ring-green
+            -100 transition-all text-sm  "
+            data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation"
+            aria-label="Toggle navigation">
+            <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+            <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor"
+              viewBox="0 0 16 16">
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="navbar-collapse-with-animation"
+        class="hs-collapse hidden overflow-hidden transition-all duration-500 basis-full grow sm:block  bg-primary-50 md:bg-slate-100 ">
+        <div
+          class="flex flex-col gap-10 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5 text-white md:text-[#636972] text-center">
+          <a class="text-base font-normal hover:text-primary-50 duration-500" href="#home" aria-current="page">Home</a>
+          <a class="text-base font-normal hover:text-primary-50 duration-500" href="#about">About</a>
+          <a class="text-base font-normal hover:text-primary-50 duration-500" href="#Services">Services</a>
+          <a class="text-base font-normal hover:text-primary-50 duration-500" href="#price">Price</a>
+          <a class="text-base font-normal hover:text-primary-50 duration-500" href="#Works">Works</a>
+          <a class="text-base font-normal hover:text-primary-50 duration-500" href="#Blog">Blog</a>
+          <a class="text-base font-normal hover:text-primary-50 duration-500" href="#Contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Nav  -->
+  <!-- <div class="nav w-full bg-slate-100 p-5">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+     
+          <div class="hidden md:flex space-x-10 text-text2-100 duration-500">
+            <a
+              class="text-base font-normal hover:text-primary-50 duration-500"
+              href="#home"
+              >Home</a
+            >
+            <a
+              class="text-base font-normal hover:text-primary-50 duration-500 "
+              href="#about"
+              >About</a
+            >
+            <a
+              class="text-base font-normal hover:text-primary-50 duration-500"
+              href="#Services"
+              >Services</a
+            >
+            <a
+              class="text-base font-normal hover:text-primary-50 duration-500"
+              href="#price"
+              >Price</a
+            >
+            <a
+              class="text-base font-normal hover:text-primary-50 duration-500"
+              href="#Works"
+              >Works</a
+            >
+            <a
+              class="text-base font-normal hover:text-primary-50 duration-500"
+              href="#"
+              >Blog</a
+            >
+            <a
+              class="text-base font-normal hover:text-primary-50 duration-500"
+              href="#"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </div> -->
+  <!-- business stategy -->
+  <section class="relative h-auto md:h-screen bg-slate-100 py-0 md:py-20" id="home">
+    <div class="absolute bottom-0 left-0 hidden md:block">
+      <img src="src/img/dots.png" class="" alt="" />
+    </div>
+
+    <div class="container mx-auto grid md:grid-cols-2 gap-x-2  md:gap-x-64 items-center  pt-10">
+      <div class="content-center text-center  md:text-justify py-0  md:py-5">
+        <span class="bg-primary-100 p-2 rounded-lg text-sm">Perfect for Operation HR and Finance</span>
+        <h1 class=" py-5 font-bold text-2xl">
+          We transform <br />
+          businesse strategy
+        </h1>
+        <p class=" py-2 text-sm md:text-lg w-auto md:w-5/6">
+          Faff about only a quid blower I don't want no agro chim pot burke
+          tosser cras nice one boot fanny.
+        </p>
+        <form class="py-5 flex  flex-row justify-center md:justify-start">
+          <input class="py-2 px-4   focus:outline-none hover:rounded-sm  " type="email" id="exampleInputEmail1"
+            aria-describedby="emailHelp" placeholder="Enter Your Email" />
+
+          <button type="submit" class="bg-primary-50 py-2 px-4 rounded-e-lg  text-white">
+            Subscribe
+          </button>
+        </form>
+      </div>
+      <div class=" order-first md:order-last p-10 md:p-0 md:justify-self-end ">
+        <img src="src/img/Frame.png" alt="" class=" animate-zoomOutIn01" />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- about -->
+  <div id="about" class="bg-white py-10 md:py-28">
+    <div class="container  mx-auto grid grid-cols-1 md:grid-cols-3 content-center gap-x-28 ">
+
+      <div class="  flex  flex-col items-center  text-center py-4 md:py-0">
+
+        <img src="src/img/about1.png" class="" alt="">
+        <h3 class="py-2 text-lg font-medium">Collaborative</h3>
+        <p class=" text-sm  ">Twit cras excuse my French matie boy grub it's all gone to pot</p>
+
+
+      </div>
+      <div class=" flex  flex-col items-center    text-center  py-4 md:py-0">
+
+        <img src="src/img/about2.png" alt="">
+        <h3 class="py-2 text-lg font-medium">Responsive</h3>
+        <p class="text-sm  ">Twit cras excuse my French matie boy grub it's all gone to pot</p>
+
+
+      </div>
+
+      <div class="flex  flex-col items-center    text-center py-4 md:py-0">
+
+        <img src="src/img/about3.png" alt="">
+        <h3 class="py-2 text-lg font-medium">Marketing</h3>
+        <p class=" text-sm  ">Twit cras excuse my French matie boy grub it's all gone to pot</p>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <!-- experiences -->
+  <section class="relative h-auto  bg-slate-100 my-auto py-10" id="Services">
+    <div class="absolute bottom-0 right-0 hidden md:block">
+      <img src="src/img/dots.png" class="" alt="" />
+    </div>
+
+    <div class="container mx-auto grid md:grid-cols-2 gap-2  md:gap-x-64 items-center py-10 ">
+      <div class=" text-center  md:text-start py-0  md:py-5 flex flex-col   items-center md:items-start">
+
+        <img src="src/img/Group 53.svg" class=" ms-0 md:-ms-3 w-24 h-24 items-center" alt="">
+
+        <h1 class=" py-6 md:py-5 font-bold text-xl md:text-2xl">
+          On strategic experiences<br />and visual appeal
+        </h1>
+        <div class="w-auto md:w-auto ">
+          <div class=" whitespace-normal px-6 md:px-0 text-sm  text-[#8F91A1]  md:text-justify">Why I say old chap that
+            is, spiffing off his nut cor blimey guvnor geeza bloke knees up bobby, sloshed arse William cack Richard.
+            Bloke fanny around chesed knees up bobby, sloshed arse William cack Richard. fanny around chesed</div>
+        </div>
+        <div class="Read flex flex-row space-x-3 justify-center md:justify-start pt-4 ">
+
+
+
+          <button type="submit" class="  text-black  hover:text-primary-50 duration-500">
+            Read More
+
+          </button>
+          <img src="src/img/Group.svg" alt="">
+        </div>
+      </div>
+      <div class=" order-first md:order-first  md:justify-self-start">
+        <img src="src/img/Frame2.png" alt="" class=" " />
+      </div>
+    </div>
+  </section>
+  <!-- Subscribe -->
+  <section class="h-auto my-auto py-10 md:py-14 bg-blue-950" id="">
+    <div class="container mx-auto flex flex-col text-center items-center ">
+      <h1 class="text-white text-2xl md:text-3xl font-semibold py-5">Subscribe to Our Newsletter Every Week</h1>
+      <p class="text-gray-200 text-sm font-light w-auto md:w-1/3">Why I say old chap that is, spiffing off his nut cor
+        blimey guvnor geeza
+        knees up bobby, sloshed arse William cack</p>
+      <form class="py-5 flex  flex-row justify-center md:justify-start">
+        <input class="py-2 px-8 md:px-16   focus:outline-none rounded-s-lg   " type="email" id="exampleInputEmail1"
+          aria-describedby="emailHelp" placeholder="Enter Your Email" />
+
+        <button type="submit" class="bg-primary-50 py-2 px-4 rounded-e-lg  text-white">
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </section>
+  <!-- Perfect -->
+  <section class="relative h-auto  my-auto py-10 bg-slate-100" id="price">
+    <div class="absolute bottom-0 right-0 hidden md:block">
+      <img src="src/img/dots.png" class="" alt="" />
+    </div>
+
+    <div class="container mx-auto grid md:grid-cols-2 gap-2  md:gap-64 items-center py-10 px-5 md:px-0">
+      <div class=" text-center  md:text-start py-0  md:py-5 flex flex-col   items-center md:items-start">
+
+        <img src="src/img/Group 55.svg" class=" ms-0 md:-ms-3 w-24 h-24 items-center" alt="">
+
+        <h1 class=" py-6 md:py-5 font-bold text-xl md:text-2xl">
+          Perfect for Operation HR
+          <br />and Finance
+        </h1>
+        <div class="w-auto ">
+          <div class=" whitespace-normal text-sm  text-[#8F91A1]  px-6 md:px-0  md:text-justify">Why I say old chap that
+            is, spiffing off his nut cor blimey guvnor geeza bloke knees up bobby, sloshed arse William cack Richard.
+            Bloke fanny around chesed knees up bobby, sloshed arse William cack Richard. fanny around chesed</div>
+        </div>
+        <div class="Read flex flex-row space-x-3 justify-center md:justify-start pt-4 ">
+
+
+
+          <button type="submit" class="  text-black  hover:text-primary-50 duration-500">
+            Read More
+
+          </button>
+          <img src="src/img/Group.svg" alt="">
+        </div>
+      </div>
+      <div class=" order-first md:order-last p-10 md:p-0 md:justify-self-start">
+        <img src="src/img/Frame3.svg" alt="" />
+      </div>
+    </div>
+  </section>
+  <!-- service -->
+  <section class="bg-[#ECF1F469]" id="Works">
+    <div class="container  mx-auto p-5 md:p-0">
+      <div class="service flex flex-col items-center py-5">
+        <img src="src/img/Group 56.svg" class="h-24 w-24" alt="">
+        <h1>Our Services</h1>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-8 py-5">
+
+        <div class="card bg-white flex flex-col items-center py-3 md:py-5"><img src="src/img/Group 57.svg"
+            class="h-16 w-16" alt="">
+          <h2 class="py-2">Collaborative</h2>
+          <p class="text-xs md:text-sm">Twit cras excuse Frenchs.</p>
+        </div>
+        <div class="card bg-white flex flex-col items-center py-3  md:py-5"><img src="src/img/Group 58.svg"
+            class="h-16 w-16" alt="">
+          <h2 class="py-2">Collaborative</h2>
+          <p class="text-xs md:text-sm">Twit cras excuse Frenchs.</p>
+        </div>
+        <div class="card bg-white flex flex-col items-center  py-3   md:py-5"><img src="src/img/Group 59.svg"
+            class="h-16 w-16" alt="">
+          <h2 class="py-2">Collaborative</h2>
+          <p class="text-xs md:text-sm">Twit cras excuse Frenchs.</p>
+        </div>
+        <div class="card bg-white flex flex-col items-center  py-3  md:py-5"><img src="src/img/Group 60.svg"
+            class="h-16 w-16" alt="">
+          <h2 class="py-2">Collaborative</h2>
+          <p class="text-xs md:text-sm">Twit cras excuse Frenchs.</p>
+        </div>
+        <div class="card bg-white flex flex-col items-center py-3   md:py-5"><img src="src/img/Group 61.svg"
+            class="h-16 w-16" alt="">
+          <h2 class="py-2">Collaborative</h2>
+          <p class="text-xs md:text-sm">Twit cras excuse Frenchs.</p>
+        </div>
+        <div class="card bg-white flex flex-col items-center  py-3  md:py-5"><img src="src/img/Group 62.svg"
+            class="h-16 w-16" alt="">
+          <h2 class="py-2">Collaborative</h2>
+          <p class="text-xs md:text-sm">Twit cras excuse Frenchs.</p>
+        </div>
+        <div class="card bg-white flex flex-col items-center  py-3  md:py-5"><img src="src/img/Group 63.svg"
+            class="h-16 w-16" alt="">
+          <h2 class="py-2">Collaborative</h2>
+          <p class="text-xs md:text-sm">Twit cras excuse Frenchs.</p>
+        </div>
+        <div class="card bg-white flex flex-col items-center  py-3  md:py-5"><img src="src/img/Group 64.svg"
+            class="h-16 w-16" alt="">
+          <h2 class="py-2">Collaborative</h2>
+          <p class="text-xs md:text-sm">Twit cras excuse Frenchs.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- visual -->
+  <section class="relative h-auto  my-auto py-10 bg-slate-100" id="Blog">
+    <div class="absolute bottom-0 right-0 hidden md:block">
+      <img src="src/img/dots.png" class="" alt="" />
+    </div>
+
+    <div class="container mx-auto grid md:grid-cols-2 gap-x-2  md:gap-x-64  items-center py-10 ">
+
+      <div class=" text-center  md:text-start py-0  md:py-5 flex flex-col   items-center md:items-start  ">
+
+
+        <h1 class=" py-6 md:py-5 font-bold text-xl md:text-2xl">
+          On strategic experiences<br />and visual appeal
+        </h1>
+        <div class="w-auto md:w-full">
+          <div class=" whitespace-normal text-sm   px-6 md:px-0 leading-7 text-[#8F91A1]  md:text-justify">Faff about only
+            a quid blower I don't want no agro bleeding chim pot burke tosser cras nice one boot fanny.</div>
+        </div>
+        <div class="flex flex-col items-center md:flex-row  space-x-4 py-4">
+          <div class="pb-2"><img src="src/img/Group 65.svg" alt=""></div>
+          <div>
+            <h2>Collaborative</h2>
+            <p>Twit cras excuse Frenchs.</p>
+
+
+          </div>
+        </div>
+        <div class="flex flex-col items-center md:flex-row  space-x-4 py-4">
+          <div class="pb-2"><img src="src/img/Group 66.svg" alt=""></div>
+          <div>
+            <h2>Collaborative</h2>
+            <p>Twit cras excuse Frenchs.</p>
+
+
+          </div>
+        </div>
+        <div class="Read flex flex-row space-x-3 justify-center md:justify-start pt-4 ">
+
+
+
+          <button type="submit" class="  text-black  hover:text-primary-50 duration-500">
+            Read More
+
+          </button>
+          <img src="src/img/Group.svg" alt="">
+        </div>
+      </div>
+
+      <div class=" order-first p-10 md:p-0 md:justify-self-start ">
+        <img src="src/img/Frame4.svg" alt="" class=" " />
+      </div>
+    </div>
+  </section>
+  <!-- Newsletter  -->
+  <section class="h-auto my-auto py-10 bg-blue-950" id="price">
+    <div class="container mx-auto flex flex-col text-center items-center  ">
+      <h1 class="text-h1-100 text-2xl md:text-3xl font-semibold py-5 text-white">Subscribe to Our Newsletter Every Week</h1>
+      <p class=" text-sm font-light w-auto md:w-1/3 pb-5 text-gray-300">Why I say old chap that is, spiffing off his nut
+        cor blimey guvnor geeza
+        knees up bobby, sloshed arse William cack</p>
+
+
+      <button type="submit" class="bg-primary-50 py-2 px-5   text-white">
+        Get it Now
+      </button>
+
+    </div>
+  </section>
+
+  <!-- Latest News -->
+  <section class="bg-[#ECF1F469]" id="Contact">
+    <div class="container mx-auto ">
+      <div class="service flex flex-col items-center py-5">
+        <img src="src/img/Group 56.svg" class="h-24 w-24" alt="">
+        <h1>Latest News</h1>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-8 py-5 px-5 md:px-0">
+
+        <div class="card bg-white flex flex-col items-center py-3 md:py-5 rounded-2xl"><img src="src/img/Group 57.svg"
+            class="h-20 w-20 " alt="">
+          <div class=" text-center py-0  md:py-5 flex flex-col  items-center">
+
+
+            <h1 class=" py-6 md:py-5 font-medium text-lg md:text-xl ">
+              Perfect for Operation HR
+              <br />and Finance
+            </h1>
+            <div class="w-auto md:w-3/4 ">
+              <div class=" whitespace-normal text-sm   px-6 md:px-0 leading-7 md:text-justify text[#8F91A1]">Why I say
+                old chap that is, spiffing off his nut cor blimey guvnor geeza bloke knees up bobby, sloshed arse
+                William cack Richard.
+                Bloke fanny around chesed knees up bobby, sloshed arse William cack Richard. fanny around chesed</div>
+            </div>
+            <div class="Read flex flex-row space-x-3 justify-center md:justify-start pt-4 ">
+
+
+
+              <button type="submit" class="  text-black  hover:text-primary-50 duration-500">
+                Read More
+
+              </button>
+              <img src="src/img/Group.svg" alt="">
+            </div>
+          </div>
+
+        </div>
+        <div class="card bg-white  flex flex-col items-center py-3 md:py-5 rounded-2xl"><img src="src/img/Group 59.svg"
+            class="h-20 w-20 " alt="">
+          <div class=" text-center py-0  md:py-5 flex flex-col  items-center ">
+
+
+            <h1 class=" py-6 md:py-5 font-medium text-lg md:text-xl ">
+              Perfect for Operation HR
+              <br />and Finance
+            </h1>
+            <div class="w-auto md:w-3/4 ">
+              <div class="whitespace-normal text-sm   px-6 md:px-0 leading-7 md:text-justify text[#8F91A1]">Why I say
+                old chap that is, spiffing off his nut cor blimey guvnor geeza bloke knees up bobby, sloshed arse
+                William cack Richard.
+                Bloke fanny around chesed knees up bobby, sloshed arse William cack Richard. fanny around chesed</div>
+            </div>
+            <div class="Read flex flex-row space-x-3 justify-center md:justify-start pt-4 ">
+
+
+
+              <button type="submit" class="  text-black  hover:text-primary-50 duration-500">
+                Read More
+
+              </button>
+              <img src="src/img/Group.svg" alt="">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card bg-white  flex flex-col items-center py-3 md:py-5 rounded-2xl"><img src="src/img/Group 58.svg"
+            class="h-20 w-20 " alt="">
+          <div class=" text-center py-0  md:py-5 flex flex-col  items-center">
+
+
+            <h1 class=" py-6 md:py-5 font-medium text-lg md:text-xl ">
+              Perfect for Operation HR
+              <br />and Finance
+            </h1>
+            <div class="w-auto md:w-3/4 ">
+              <div class=" whitespace-normal text-sm   px-6 md:px-0 leading-7 md:text-justify text[#8F91A1]">Why I say
+                old chap that is, spiffing off his nut cor blimey guvnor geeza bloke knees up bobby, sloshed arse
+                William cack Richard.
+                Bloke fanny around chesed knees up bobby, sloshed arse William cack Richard. fanny around chesed</div>
+            </div>
+            <div class="Read flex flex-row space-x-3 justify-center md:justify-start pt-4 ">
+
+
+
+              <button type="submit" class="  text-black  hover:text-primary-50 duration-500">
+                Read More
+
+              </button>
+              <img src="src/img/Group.svg" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="bg-blue-950">
+    <div class="container mx-auto text-white p-3 font-light text-sm md:text-lg text-center md:text-left">
+      <h4>Copyright © 2020 Desing by MohammedFarhat
+      </h4>
+    </div>
+  </footer>
+  
+
+  <script src="./node_modules/preline/dist/preline.js"></script>
+</body>
+
+</html>
